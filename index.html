@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Today New's</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <div class="container">
+      <div class="row">
+        <div class="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav class="navbar" id="navbar">
+          <img
+            id="logo"
+            src="Screenshot_2025-03-05_110403-removebg-preview.png"
+          />
+          <ul class="main-menu">
+            <li class="list-items"><a href="index.html">Home</a></li>
+            <li class="list-items"><a href="scroll.html">Scroll Now</a></li>
+            <li class="list-items"><a href="around.html">Around You</a></li>
+            <li class="list-items"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <main>
+      <div class="video_conatainer">
+        <video
+          id="hero_vid"
+          autoplay
+          loop
+          muted
+          controls
+          poster="assets/intro.png"
+        >
+          <source
+            src="News Intro ( After Effects Template ) _aetemplates(1080P_HD).mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="hero_sec">
+        <div class="back_in_left">
+          <h1 id="intro_title">All around the world</h1>
+          <a id="news" href="news.html"
+            >Find out What's happening
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="0.8em"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              /></svg
+          ></a>
+        </div>
+      </div>
+
+      <div class="home_text">
+        <div>
+          <h2 id="paragraph_title">Today New's</h2>
+          <p id="text">
+            In today’s fast-paced world, staying informed is crucial to staying
+            ahead. Our platform is created to keep you connected to the most
+            significant stories, from breaking news to detailed reports.
+            Wherever you are, we’re here to bring the latest headlines, global
+            events, and trending topics straight to you. With each story, we
+            strive to inspire thought, spark curiosity, and ensure you're
+            up-to-date on the most important matters. Explore, discover, and let
+            us navigate you through a wealth of knowledge, so you never miss
+            what’s happening around you.
+          </p>
+        </div>
+        <img
+          id="map"
+          src="https://img.freepik.com/premium-photo/map-world-with-words-world-it_973047-38864.jpg"
+          alt="world map"
+        />
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>copyright &copy; 2024 by @walidraad ! All Right Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
