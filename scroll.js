@@ -2,7 +2,7 @@ window.addEventListener("load", hide_preloader);
 
 function hide_preloader() {
   document.getElementById("preloader").style.display = "none";
-  document.getElementById("navbar").style.position = "fixed";
+  document.getElementById("nav").style.position = "fixed";
 }
 document.querySelector(".menu-btn").addEventListener("click", abc);
 function abc() {
@@ -26,8 +26,8 @@ let subjects = [
 ];
 
 const news = {
-  //api_key: "47cf659fd8ea4103b6cb75e3af339fa5",
-  api_key: "d5b47068cbda4238967a84680c50876e",
+  api_key: "359b663e645147de83245b288ea51f2b",
+  // api_key: "d5b47068cbda4238967a84680c50876e",
 
   fetch_news: function (topic) {
     fetch(
