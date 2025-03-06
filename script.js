@@ -7,6 +7,6 @@ function hide_preloader() {
 document.querySelector(".menu-btn").addEventListener("click", abc);
 function abc() {
   document.querySelector(".main-menu").classList.toggle("show");
-  document.querySelector(".video_conatainer").style.display = "none";
-  document.querySelector(".hero_sec").style.display = "none";
+  document.querySelector(".video_conatainer").classList.toggle("None");
+  document.querySelector(".hero_sec").classList.toggle("None");
 }

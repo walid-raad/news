@@ -180,6 +180,9 @@ font-size: 1.4em;
     right: 30px;
     font-size: 2rem;
   }
+  .None{
+    display: none;
+  }
   #logo{
     width: 100px;
     height: 100px;

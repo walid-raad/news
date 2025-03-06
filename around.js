@@ -7,7 +7,7 @@ function hide_preloader() {
 document.querySelector(".menu-btn").addEventListener("click", abc);
 function abc() {
   document.querySelector(".main-menu").classList.toggle("show");
-  document.querySelector(".city").style.display = "none";
+  document.querySelector(".city").classList.toggle("None");
 }
 //getting info from user
 const country_name = document.getElementById("country_name");

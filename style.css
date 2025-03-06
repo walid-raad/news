@@ -204,6 +204,9 @@ footer p {
         right: 30px;
         font-size: 2rem;
       }
+      .None{
+        display: none;
+      }
     body{
         width: 100vw;
     }
